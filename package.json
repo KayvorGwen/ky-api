@@ -1,0 +1,37 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "author": "kayvor",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^7.4.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa-compose": "^4.1.0",
+    "koa-jwt": "^3.3.2",
+    "koa-multer": "^1.0.2",
+    "koa-mysql-session": "0.0.2",
+    "koa-session-minimal": "^3.0.4",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mysql2": "^1.6.1",
+    "mysql2-promise": "^0.1.4",
+    "uuid": "^3.3.2"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 4.0.0"
+  }
+}
